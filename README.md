@@ -23,4 +23,4 @@ Open this folder with Visual Studio Code and run below commands in VS terminal
 npm i
 npm run start
 ```
-Now you can easily customize this template 
+Now you can easily customize this template. 
