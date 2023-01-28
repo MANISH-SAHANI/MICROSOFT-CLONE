@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Microsoft - Clone with Tailwindcss</title>
+</head>
+
+<body>
+    <nav class="flex justify-between p-2 md:py-0 xl:px-5 xl:w-[90%] xl:mx-auto">
+        <!-- Search and Menu -->
+        <div class="space-x-4 md:order-2 md:w-[60%] xl:w-[70%]">
+            <span class="text-xl menu-icon md:hidden"><i class="fa-solid fa-bars"></i></span>
+            <span class="text-xl search md:hidden"><i class="fa-solid fa-magnifying-glass"></i></span>
+            <ul
+                class="menu-list absolute bg-gray-100 inset-0 top-12 m-[0px!important] p-2 hidden md:flex md:static md:bg-white">
+                <li><a href="#"
+                        class="p-3 md:px-2 md:text-md block border-b-[1px] border-gray-200 md:border-none hover:underline hover:underline-offset-4 transition-all">Microsoft
+                        365</a></li>
+                <li><a href="#"
+                        class="p-3 md:px-2 md:text-md block border-b-[1px] border-gray-200 md:border-none hover:underline hover:underline-offset-4 transition-all">Office</a>
+                </li>
+                <li><a href="#"
+                        class="p-3 md:px-2 md:text-md block border-b-[1px] border-gray-200 md:border-none hover:underline hover:underline-offset-4 transition-all">Windows</a>
+                </li>
+                <li><a href="next.html"
+                        class="p-3 md:px-2 md:text-md block border-b-[1px] border-gray-200 md:border-none hover:underline hover:underline-offset-4 transition-all">Surface</a>
+                </li>
+                <li><a href="#"
+                        class="p-3 md:px-2 md:text-md block border-b-[1px] border-gray-200 md:border-none hover:underline hover:underline-offset-4 transition-all">Xbox</a>
+                </li>
+                <li><a href="#"
+                        class="p-3 md:px-2 md:text-md block border-b-[1px] border-gray-200 md:border-none hover:underline hover:underline-offset-4 transition-all">Support</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Logo -->
+        <div class="logo flex justify-center items-center md:order-1 md:w-[20%] md:justify-start md:pl-5 xl:w-[10%]">
+            <a href="/">
+                <img class="w-28"
+                    src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
+                    alt="">
+            </a>
+        </div>
+        <!-- Shopping cart and Profile -->
+        <div class="space-x-4 md:order-3 flex items-center md:w-[20%] md:justify-end xl:w-[20%]">
+            <span class="hidden lg:block">All Microsoft</span>
+            <span class="text-xl search hidden md:block"><i class="fa-solid fa-magnifying-glass"></i></span>
+            <span class="text-xl cart"><i class="fa-solid fa-cart-shopping"></i></span>
+            <span class="text-xl profile"><i class="fa-solid fa-circle-user"></i></span>
+        </div>
+    </nav>
+
+    <!-- Slider Section -->
+    <div class="slider relative shadow-md bg-[#efdccc]">
+        <div class="info px-8 py-6  sm:w-2/3 md:m-auto md:text-center md:py-52 lg:absolute lg:right-0 lg:top-1/2 lg:-translate-y-1/2 lg:w-[45%]">
+            <h1 class="font-semibold text-4xl py-4  sm:text-5xl sm:py-14 lg:text-left lg:text-5xl lg:py-10 xl:text-7xl 2xl:text-8xl">Laptops Designed by Microsoft</h1>
+            <p class="pb-5 lg:w-full md:text-xl lg:font-semibold lg:text-left xl:text-2xl 2xl:text-3xl">Microsoft Surface touchscreen laptops and 2-in-1s empower you to create however you want, wherever you are.</p>
+            <a href="#" class="text-sm block hover:underline hover:underline-offset-2 text-blue-600 font-semibold md:text-lg lg:text-left">Find your Surface ></a>
+        </div>
+        <div class="h-[400px] sm:h-[600px] md:h-[700px] xl:h-[800px] w-full transition-all">
+            <img class="w-full h-full object-cover object-left"
+                src="https://c.s-microsoft.com/en-in/CMSImages/Surface_F22_Home_Hero_Desktop_Unleash_Platinum_V1.jpg?version=b7d0765b-d4b0-8eb6-9c95-5740b269c366"
+                alt="">
+        </div>
+    </div>
+
+     <!-- Promotion Section -->
+     <div class="mx-4 my-16  sm:w-10/12 sm:mx-auto md:w-[70%] xl:w-[60%]">
+        <h2 class="text-5xl leading-tight font-semibold py-2 mr-4">For all the ways you create</h2>
+        <div class="py-12 sm:grid sm:grid-cols-2 justify-center">
+            <div class="flex items-center">
+                <img src="https://c.s-microsoft.com/en-in/CMSImages/Surface_F22_Home_LinkNav_Accessories_S22.jpg?version=1d41b494-27da-2c0c-8e58-6c39e7bd48c5" alt="Mouse image">
+                <p class="font-semibold text-md text-blue-800">Accessories ></p>
+            </div>
+            <div class="flex items-center">
+                <img src="https://c.s-microsoft.com/en-in/CMSImages/Surface_F22_Home_LinkNav_Business.jpg?version=abc137e7-fb77-9719-bf47-d424ec2d3614" alt="Surface Image">
+                <p class="font-semibold text-md text-blue-800">Surface for Business ></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Social Medias -->
+    <div class="icons flex mx-4 my-8 xl:w-[90%] xl:mx-auto">
+        <p class="text-xl font-semibold py-2 mr-4">Follow Microsoft</p>
+        <div class="text-2xl flex items-center justify-center space-x-3">
+            <span><i class="fa-brands fa-facebook"></i></span>
+            <span><i class="fa-brands fa-twitter-square"></i></span>
+            <span><i class="fa-brands fa-youtube"></i></span>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-[#f8f8f8]">
+        <div class="px-4 py-10 sm:grid sm:grid-cols-3 sm:justify-center sm:px-16 xl:grid-cols-6 xl:w-[90%] xl:mx-auto">
+            <div class="f-box flex flex-col mb-6">
+                <h4 class="text-md text-gray-600 font-bold py-1 mb-1">What's new</h4>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Microsoft 365</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Surface Pro X</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Surface Pro 7</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Surface Laptop 3</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Windows 11 apps</a>
+            </div>
+            <div class="f-box flex flex-col mb-6">
+                <h4 class="text-md text-gray-600 font-bold py-1 mb-1">Microsoft Store</h4>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Account Profile</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Download Center</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Microsoft Store Support</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Returns</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Order tracking</a>
+            </div>
+            <div class="f-box flex flex-col mb-6">
+                <h4 class="text-md text-gray-600 font-bold py-1 mb-1">Education</h4>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Microsoft in education</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Devices for education</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Microsoft Teams for education</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Microsoft 365 Education</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Office Education</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Education training and development</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Deals for students and parents</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Azure for students</a>
+            </div>
+            <div class="f-box flex flex-col mb-6">
+                <h4 class="text-md text-gray-600 font-bold py-1 mb-1">Business</h4>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Microsoft Cloud</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Microsoft Security</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Azure</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Dynamics 365</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Microsoft 365</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Microsoft Advertising</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Microsoft Industry</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Microsoft Teams</a>
+            </div>
+            <div class="f-box flex flex-col mb-6">
+                <h4 class="text-md text-gray-600 font-bold py-1 mb-1">Developer & IT</h4>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Developer Center</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Documentation</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Microsoft Learn</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Microsoft Tech Community</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Azure Marketplace</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">AppSource</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Microsoft Power Platform</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Visual Studio</a>
+            </div>
+            <div class="f-box flex flex-col mb-6">
+                <h4 class="text-md text-gray-600 font-bold py-1 mb-1">Company</h4>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Careers</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">About Microsoft</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Company News</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Privacy at Microsoft</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Investors</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Security</a>
+                <a class="hover:underline hover:underline-offset-1 text-sm py-1" href="#">Sustainability</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
