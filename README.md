@@ -19,6 +19,7 @@ If you want to customize the template with tailwind css then follow the setup
 Download the repository and extract files
 Open this folder with Visual Studio Code and run below commands in VS terminal
 
-
+```
 npm i
 npm run start
+```
